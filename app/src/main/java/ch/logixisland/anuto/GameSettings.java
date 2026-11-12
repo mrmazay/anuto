@@ -15,8 +15,8 @@ public final class GameSettings {
     public static final float DIFFICULTY_EXPONENT = 1.9f;
     public static final float DIFFICULTY_LINEAR = 20;
     public static final float MIN_HEALTH_MODIFIER = 0.5f;
-    public static final float REWARD_MODIFIER = 0.4f;
-    public static final float REWARD_EXPONENT = 0.5f;
+    public static final float REWARD_MODIFIER = 1.0f;
+    public static final float REWARD_EXPONENT = 0.7f;
     public static final float MIN_REWARD_MODIFIER = 1f;
     public static final float EARLY_BONUS_MODIFIER = 3f;
     public static final float EARLY_BONUS_EXPONENT = 0.6f;
