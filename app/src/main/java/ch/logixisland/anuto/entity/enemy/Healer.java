@@ -29,10 +29,10 @@ public class Healer extends Enemy implements SpriteTransformation {
     private final static float HEAL_SCALE_FACTOR = 2f;
     private final static float HEAL_ROTATION = 2.5f;
 
-    private final static float HEAL_AMOUNT = 0.1f;
+    private final static float HEAL_AMOUNT = 0.001f;
     private final static float HEAL_INTERVAL = 5.0f;
     private final static float HEAL_DURATION = 1.5f;
-    private final static float HEAL_RADIUS = 0.7f;
+    private final static float HEAL_RADIUS = 0.2f;
 
     private final static EnemyProperties ENEMY_PROPERTIES = new EnemyProperties.Builder()
             .setHealth(400)
